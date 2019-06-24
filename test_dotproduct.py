@@ -23,7 +23,7 @@ class TestCalculate(unittest.TestCase):
     def test_calculate_parallel(self):
         """Test that parallel vectors result in the sum of squares of the vector's components."""
         a = (2, 3, 5)
-        a2 = 2*2 + 3*3 + 5*5
+        a2 = 2* 2 + 3*3 + 5*5
         self.assertEqual(a2, dotproduct.calculate(a, a))
 
     def test_calculate_antiparallel(self):
@@ -85,6 +85,15 @@ class TestOrthogonal(unittest.TestCase):
         a = (1, 1)
         a_orth = dotproduct.orthogonal(a)
         self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+
+        a = (1, 0)
+        a_orth = dotproduct.orthogonal(a)
+        self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+
+        a = (3, -5)
+        a_orth = dotproduct.orthogonal(a)
+        self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

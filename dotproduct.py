@@ -16,5 +16,23 @@ def calculate(a, b):
     return product
 
 def orthogonal(a):
-    """Return an arbitrary vector orthogonal to the input vector."""
-    return None
+    """Return an arbitrary vector orthogonal to the input vector.
+    :type a: tuple of floats.
+    :return b: tuple of floats.
+    """
+
+    if len(a) == 1:
+        return None
+
+    a_1, a_2 = a
+
+    # If any components of a are zero, set the corresponding components of b to 1.
+    if a_1 == 0:
+        return (1, 0)
+    elif a_2 == 0:
+        return (0, 1)
+    else:
+        b_1 = 1
+        b_2 = -1*a_1/a_2
+
+    return (b_1, b_2)
