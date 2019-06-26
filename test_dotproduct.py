@@ -82,17 +82,30 @@ class TestOrthogonal(unittest.TestCase):
 
     def test_orthogonal_2D(self):
         """Test that the function returns an orthogonal vector if a 2-D Vector is passed in."""
-        a = (1, 1)
-        a_orth = dotproduct.orthogonal(a)
-        self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+        test_vectors = [(1, 1), (1, 0), (3, -5), (9, 9), (-1, -1), (0, 0), (0, 1), (234.5, -0.666)]
 
-        a = (1, 0)
-        a_orth = dotproduct.orthogonal(a)
-        self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+        for vector in test_vectors:
+            ortho = dotproduct.orthogonal(vector)
+            print(f'Vector: {vector}, Ortho: {ortho}')
+            self.assertEqual(dotproduct.calculate(vector, ortho), 0)
 
-        a = (3, -5)
-        a_orth = dotproduct.orthogonal(a)
-        self.assertEqual(dotproduct.calculate(a, a_orth), 0)
+    def test_orthogonal_3D(self):
+        """Test that the function returns an orthogonal vector if a 3-D Vector is passed in."""
+        test_vectors = [(0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 0), (1, 0, 1), (0, 1, 1), (1, 1, 1)]
+
+        for vector in test_vectors:
+            ortho = dotproduct.orthogonal(vector)
+            print(f'Vector: {vector}, Ortho: {ortho}')
+            self.assertEqual(dotproduct.calculate(vector, ortho), 0)
+
+    def test_orthogonal_ND(self):
+        """Test that the function returns an orthogonal vector for N-Dimentional Vectors."""
+        test_vectors = [(1,3,5,0,2), (1,1,1,1,1,1,1,1,1,1), (-23.5, 77.9, 237591.01, 999.088888)]
+
+        for vector in test_vectors:
+            ortho = dotproduct.orthogonal(vector)
+            print(f'Vector: {vector}, Ortho: {ortho}')
+            self.assertEqual(dotproduct.calculate(vector, ortho), 0)
 
 
 if __name__ == "__main__":

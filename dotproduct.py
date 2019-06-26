@@ -24,15 +24,14 @@ def orthogonal(a):
     if len(a) == 1:
         return None
 
-    a_1, a_2 = a
+    # Handle the vector generation one way if any elements
+    # of the input vector are zero.
+    if not all(a):
+        return tuple(0 if a_i else 1 for a_i in a)
 
-    # If any components of a are zero, set the corresponding components of b to 1.
-    if a_1 == 0:
-        return (1, 0)
-    elif a_2 == 0:
-        return (0, 1)
-    else:
-        b_1 = 1
-        b_2 = -1*a_1/a_2
-
-    return (b_1, b_2)
+    # If none of the elements of a are zero, set the first n-1
+    # elements of b to 1. Set the n-th element of b as follows:
+    a_n = a[-1]
+    b_n = -1*(sum(a) - a_n)/a_n
+    b = (1,)*(len(a)-1) + (b_n,)
+    return b
