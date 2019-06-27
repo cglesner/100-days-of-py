@@ -12,7 +12,6 @@ def calculate(a, b):
             product += a_i*b_i
         except TypeError:
             return None
-
     return product
 
 def orthogonal(a):
@@ -20,7 +19,6 @@ def orthogonal(a):
     :type a: tuple of floats.
     :return b: tuple of floats.
     """
-
     if len(a) == 1:
         return None
 
@@ -31,7 +29,4 @@ def orthogonal(a):
 
     # If none of the elements of a are zero, set the first n-1
     # elements of b to 1. Set the n-th element of b as follows:
-    a_n = a[-1]
-    b_n = -1*(sum(a) - a_n)/a_n
-    b = (1,)*(len(a)-1) + (b_n,)
-    return b
+    return (1,)*len(a[:-1]) + (-1*sum(a[:-1])/a[-1],)

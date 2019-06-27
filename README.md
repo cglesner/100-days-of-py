@@ -18,5 +18,4 @@ the fibonacci sequence.
 orthogonal to an n-dimensional input vector.
 
 Day 4:
-* Wrote `function.Polynomial` class that implements
-a polynomial function.
+* Refactored `sequence.fibonacci` and `dotproduct.orthogonal`.
