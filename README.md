@@ -19,3 +19,13 @@ orthogonal to an n-dimensional input vector.
 
 Day 4:
 * Refactored `sequence.fibonacci` and `dotproduct.orthogonal`.
+
+Day 5:
+* Was too tired, didn't write anything :(.
+
+Day 6:
+* Write a simple class `func.Poly` that implements n-th order 
+polynomial functions. They are constructed using a list of floats,
+where the index of the element of the list corresponds to the
+order of the polynomial term that that element is the coefficient
+of.
