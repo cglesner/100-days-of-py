@@ -24,8 +24,20 @@ Day 5:
 * Was too tired, didn't write anything :(.
 
 Day 6:
-* Write a simple class `func.Poly` that implements n-th order 
+* Wrote a simple class `func.Poly` that implements n-th order 
 polynomial functions. They are constructed using a list of floats,
 where the index of the element of the list corresponds to the
 order of the polynomial term that that element is the coefficient
 of.
+
+Day 7:
+* Was too tired/watched anime.
+
+Day 8:
+* Refactor the polynomial implementation to construct individual
+polynomial terms as instances of the class `func.Pterm` using
+tuples of `(order, coeficient)` as construction arguments. The 
+`func.Poly` class instances are essentially sets of PTerms, and
+are intended to provide a standard interface for operators
+on polynomials, such as derivatives, and root finders that will
+be implemented later.

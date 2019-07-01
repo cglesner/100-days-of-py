@@ -4,12 +4,24 @@ for every unique input, there is one and only one output value.
 """
 from math import fsum, pow
 
+
+class Pterm:
+    """A class that implements a polynomial term."""
+    def __init__(self, argument):
+        """Store the coefficient and power for later use."""
+        self.p, self.c = argument
+
+    def __call__(self, x):
+        """Evaluate the pterm at x."""
+        return self.c*pow(x, self.p)
+
+
 class Poly:
     """A class that implements a polynomial function."""
-    def __init__(self, coefficients):
+    def __init__(self, terms):
         """Construct a polynomial using a list of coefficients."""
-        self.coef = coefficients
+        self.term_set = {Pterm(t) for t in terms}
 
-    def evaluate(self, x):
+    def __call__(self, x):
         """Evaluate this polynomial at a particular input."""
-        return fsum(c*pow(x, p) for p, c in enumerate(self.coef))
+        return fsum(p(x) for p in self.term_set)

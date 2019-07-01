@@ -23,14 +23,14 @@ class TestCalculate(unittest.TestCase):
     def test_calculate_parallel(self):
         """Test that parallel vectors result in the sum of squares of the vector's components."""
         a = (2, 3, 5)
-        a2 = 2* 2 + 3*3 + 5*5
+        a2 = 2 * 2 + 3 * 3 + 5 * 5
         self.assertEqual(a2, dotproduct.calculate(a, a))
 
     def test_calculate_antiparallel(self):
         """Test that anti-parallel vectors result in the negative of the sum of the vector's components."""
         a = (2, 3, 5)
         a_neg = (-2, -3, -5)
-        a_a_neg = -1*(2*2 + 3*3 + 5*5)
+        a_a_neg = -1 * (2 * 2 + 3 * 3 + 5 * 5)
         self.assertEqual(a_a_neg, dotproduct.calculate(a, a_neg))
 
     def test_calculate_examples(self):
@@ -100,7 +100,7 @@ class TestOrthogonal(unittest.TestCase):
 
     def test_orthogonal_ND(self):
         """Test that the function returns an orthogonal vector for N-Dimentional Vectors."""
-        test_vectors = [(1,3,5,0,2), (1,1,1,1,1,1,1,1,1,1), (-23.5, 77.9, 237591.01, 999.088888)]
+        test_vectors = [(1, 3, 5, 0, 2), (1, 1, 1, 1, 1, 1, 1, 1, 1, 1), (-23.5, 77.9, 237591.01, 999.088888)]
 
         for vector in test_vectors:
             ortho = dotproduct.orthogonal(vector)

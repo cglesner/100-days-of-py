@@ -10,15 +10,15 @@ class TestFibonacci(unittest.TestCase):
 
     def test_fibonacci_zero(self):
         """Test that the generator yields zero as the zero-th term in the sequence."""
-        self.assertEqual(sequences.fibonacci(0),0)
+        self.assertEqual(sequences.fibonacci(0), 0)
 
     def test_fibonacci_one(self):
         """Test that the generator yields 1 as the 1st term in the sequence."""
-        self.assertEqual(sequences.fibonacci(1),1)
+        self.assertEqual(sequences.fibonacci(1), 1)
 
     def test_fibonacci_two(self):
         """Test that the generator yields 1 as the 2nd term in the sequence."""
-        self.assertEqual(sequences.fibonacci(2),1)
+        self.assertEqual(sequences.fibonacci(2), 1)
 
     def test_fibonacci_twenty(self):
         """Test that the function returns the correct valule for the 20th term in the sequence."""
