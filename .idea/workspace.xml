@@ -4,12 +4,8 @@
     <list default="true" id="a9e14f93-6821-4cee-9b8d-62d740e9f815" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotproduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/dotproduct.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_dotproduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_dotproduct.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sequences.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dotproduct.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="555">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="e#29#44#0" expanded="true" />
               </folding>
@@ -40,56 +27,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="213">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76415">
+              <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="261">
-                <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <first_editor relative-caret-position="247">
+                <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sequences.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_dotproduct.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <element signature="e#62#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_sequences.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="40" column="114" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
-              <folding>
-                <element signature="e#61#76#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,10 +84,10 @@
         <option value="$PROJECT_DIR$/function.py" />
         <option value="$PROJECT_DIR$/sequences.py" />
         <option value="$PROJECT_DIR$/test_function.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/test_func.py" />
-        <option value="$PROJECT_DIR$/func.py" />
         <option value="$PROJECT_DIR$/dotproduct.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/func.py" />
+        <option value="$PROJECT_DIR$/test_func.py" />
       </list>
     </option>
   </component>
@@ -173,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_sequences.TestFibonacci.test_fibonacci_300">
+  <component name="RunManager" selected="Python tests.Unittests for test_func.TestPterm">
     <configuration name="Unittests for test_dotproduct" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="100-days-of-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,21 +149,6 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_dotproduct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_func.TestPoly" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="100-days-of-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_func.TestPoly&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -219,7 +167,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_func.TestPoly.test_poly_zero" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_func.TestPterm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="100-days-of-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +178,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_func.TestPoly.test_poly_zero&quot;" />
+      <option name="_new_target" value="&quot;test_func.TestPterm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_func.TestPterm.test_pterm_equality" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="100-days-of-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_func.TestPterm.test_pterm_equality&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -281,19 +244,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_dotproduct" />
-      <item itemvalue="Python tests.Unittests for test_func.TestPoly" />
-      <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_zero" />
       <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_five" />
       <item itemvalue="Python tests.Unittests in test_func.py" />
       <item itemvalue="Python tests.Unittests for test_sequences.TestFibonacci.test_fibonacci_300" />
+      <item itemvalue="Python tests.Unittests for test_func.TestPterm.test_pterm_equality" />
+      <item itemvalue="Python tests.Unittests for test_func.TestPterm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_func.TestPterm" />
+        <item itemvalue="Python tests.Unittests for test_func.TestPterm.test_pterm_equality" />
         <item itemvalue="Python tests.Unittests for test_sequences.TestFibonacci.test_fibonacci_300" />
         <item itemvalue="Python tests.Unittests in test_func.py" />
         <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_five" />
-        <item itemvalue="Python tests.Unittests for test_func.TestPoly" />
-        <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_zero" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +306,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561784103237</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kind of getting addicted to list comprehensions.">
+      <created>1561959580622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561959580622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_func_TestPoly - 2019.06.28 at 22h 49m 17s.xml">
-      <configuration name="Unittests for test_func.TestPoly" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_func_TestPoly_test_poly_five - 2019.06.28 at 22h 52m 54s.xml">
-      <configuration name="Unittests for test_func.TestPoly.test_poly_five" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 02m 10s.xml">
       <configuration name="Unittests in test_func.py" configurationId="tests" />
     </history-entry>
@@ -377,17 +341,23 @@
     <history-entry file="Unittests_for_test_sequences_TestFibonacci_test_fibonacci_300 - 2019.06.30 at 23h 35m 54s.xml">
       <configuration name="Unittests for test_sequences.TestFibonacci.test_fibonacci_300" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_func_TestPterm_test_pterm_equality - 2019.07.01 at 23h 44m 09s.xml">
+      <configuration name="Unittests for test_func.TestPterm.test_pterm_equality" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_func_TestPterm - 2019.07.01 at 23h 51m 34s.xml">
+      <configuration name="Unittests for test_func.TestPterm" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-17" y="24" width="1260" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32928944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,23 +409,10 @@
     <entry file="file://$PROJECT_DIR$/function.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_func.py">
+    <entry file="file://$PROJECT_DIR$/dotproduct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#29#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="261">
-            <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -468,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_dotproduct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
             <element signature="e#62#77#0" expanded="true" />
           </folding>
@@ -478,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_sequences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="585">
           <caret line="40" column="114" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
           <folding>
             <element signature="e#61#76#0" expanded="true" />
@@ -486,17 +443,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dotproduct.py">
+    <entry file="file://$PROJECT_DIR$/test_func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="555">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#29#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="213">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76415">
+          <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

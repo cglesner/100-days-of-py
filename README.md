@@ -40,4 +40,11 @@ tuples of `(order, coeficient)` as construction arguments. The
 `func.Poly` class instances are essentially sets of PTerms, and
 are intended to provide a standard interface for operators
 on polynomials, such as derivatives, and root finders that will
-be implemented later.
+be implemented later. Also implemented `__call__` methods to allow
+for use that looks more naturally like algebraic functions.
+
+Day 9:
+* Implemented `__eq__` operator on Pterm class. Quick test
+because it's late. The method will consider two Pterm instances
+equal if both the coefficients and the powers of the terms are
+equal.

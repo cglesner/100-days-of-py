@@ -21,6 +21,22 @@ class TestPterm(unittest.TestCase):
         self.assertEqual(pt_first(1), 7.5)
         self.assertEqual(pt_first(-1), -7.5)
 
+    def test_pterm_equalitytrue(self):
+        """Test that pterm equality checking succeeds when it should."""
+        p1 = func.Pterm((2, -5))
+        p2 = func.Pterm((2, -5))
+        self.assertEqual(p1, p2)
+
+    def test_pterm_equalityfalse(self):
+        """Test that pterm equality checking fails when it should."""
+        p1 = func.Pterm((3, 7))
+        p2 = func.Pterm((3, 8))
+        p3 = func.Pterm((4, 7))
+        p4 = func.Pterm((4, 8))
+        self.assertNotEqual(p1, p2)
+        self.assertNotEqual(p1, p3)
+        self.assertNotEqual(p1, p4)
+
 
 class TestPoly(unittest.TestCase):
     """Test the poly(nomial) class."""

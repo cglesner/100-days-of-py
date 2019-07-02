@@ -15,6 +15,10 @@ class Pterm:
         """Evaluate the pterm at x."""
         return self.c*pow(x, self.p)
 
+    def __eq__(self, other):
+        """Define Pterm equality."""
+        return self.p == other.p and self.c == other.c
+
 
 class Poly:
     """A class that implements a polynomial function."""
