@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e14f93-6821-4cee-9b8d-62d740e9f815" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/differentiate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cross.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_differentiate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crossproduct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_crossproduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/cross.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,43 +19,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_func.py">
+        <entry file="file://$PROJECT_DIR$/dotproduct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="307">
+                <caret line="63" selection-start-line="63" selection-end-line="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cross.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
-                <element signature="e#29#44#0" expanded="true" />
+                <element signature="e#58#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func.py">
+        <entry file="file://$PROJECT_DIR$/differentiate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76415">
-              <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/cross.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -77,17 +89,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crossproduct.py" />
-        <option value="$PROJECT_DIR$/test_crossproduct.py" />
         <option value="$PROJECT_DIR$/test_dotproduct.py" />
         <option value="$PROJECT_DIR$/test_sequences.py" />
         <option value="$PROJECT_DIR$/function.py" />
         <option value="$PROJECT_DIR$/sequences.py" />
         <option value="$PROJECT_DIR$/test_function.py" />
         <option value="$PROJECT_DIR$/dotproduct.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/func.py" />
         <option value="$PROJECT_DIR$/test_func.py" />
+        <option value="$PROJECT_DIR$/differentaite.py" />
+        <option value="$PROJECT_DIR$/differentiate.py" />
+        <option value="$PROJECT_DIR$/test_differentiate.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/crossproduct.py" />
+        <option value="$PROJECT_DIR$/test_crossproduct.py" />
+        <option value="$PROJECT_DIR$/test_cross.py" />
+        <option value="$PROJECT_DIR$/cross.py" />
       </list>
     </option>
   </component>
@@ -136,7 +153,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_func.TestPterm">
+  <component name="RunManager" selected="Python tests.Unittests in test_cross.py">
+    <configuration name="Unittests for test_differentiate.TestDDX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="100-days-of-py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_differentiate.TestDDX&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_dotproduct" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="100-days-of-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,21 +181,6 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_dotproduct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_func.TestPoly.test_poly_five" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="100-days-of-py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_func.TestPoly.test_poly_five&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -197,7 +214,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_sequences.TestFibonacci.test_fibonacci_300" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_cross.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="100-days-of-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +225,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sequences.TestFibonacci.test_fibonacci_300&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cross.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_func.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_differentiate.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="100-days-of-py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,7 +240,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_func.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_differentiate.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -244,19 +261,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_dotproduct" />
-      <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_five" />
-      <item itemvalue="Python tests.Unittests in test_func.py" />
-      <item itemvalue="Python tests.Unittests for test_sequences.TestFibonacci.test_fibonacci_300" />
       <item itemvalue="Python tests.Unittests for test_func.TestPterm.test_pterm_equality" />
       <item itemvalue="Python tests.Unittests for test_func.TestPterm" />
+      <item itemvalue="Python tests.Unittests for test_differentiate.TestDDX" />
+      <item itemvalue="Python tests.Unittests in test_differentiate.py" />
+      <item itemvalue="Python tests.Unittests in test_cross.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_cross.py" />
+        <item itemvalue="Python tests.Unittests in test_differentiate.py" />
+        <item itemvalue="Python tests.Unittests for test_differentiate.TestDDX" />
         <item itemvalue="Python tests.Unittests for test_func.TestPterm" />
         <item itemvalue="Python tests.Unittests for test_func.TestPterm.test_pterm_equality" />
-        <item itemvalue="Python tests.Unittests for test_sequences.TestFibonacci.test_fibonacci_300" />
-        <item itemvalue="Python tests.Unittests in test_func.py" />
-        <item itemvalue="Python tests.Unittests for test_func.TestPoly.test_poly_five" />
       </list>
     </recent_temporary>
   </component>
@@ -313,39 +330,46 @@
       <option name="project" value="LOCAL" />
       <updated>1561959580622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Small steps... towards a micro version of Mathematica I guess...">
+      <created>1562046862075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562046862075</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 02m 10s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 17m 28s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 18m 19s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 21m 07s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 30m 14s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 32m 03s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_func_py - 2019.06.30 at 23h 32m 29s.xml">
-      <configuration name="Unittests in test_func.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sequences_TestFibonacci_test_fibonacci_300 - 2019.06.30 at 23h 35m 54s.xml">
-      <configuration name="Unittests for test_sequences.TestFibonacci.test_fibonacci_300" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_func_TestPterm_test_pterm_equality - 2019.07.01 at 23h 44m 09s.xml">
-      <configuration name="Unittests for test_func.TestPterm.test_pterm_equality" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_func_TestPterm - 2019.07.01 at 23h 51m 34s.xml">
       <configuration name="Unittests for test_func.TestPterm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_func_TestPterm - 2019.07.02 at 23h 03m 09s.xml">
+      <configuration name="Unittests for test_func.TestPterm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_differentiate_TestDDX - 2019.07.02 at 23h 03m 23s.xml">
+      <configuration name="Unittests for test_differentiate.TestDDX" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_differentiate_TestDDX - 2019.07.02 at 23h 03m 26s.xml">
+      <configuration name="Unittests for test_differentiate.TestDDX" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_differentiate_TestDDX - 2019.07.05 at 16h 12m 17s.xml">
+      <configuration name="Unittests for test_differentiate.TestDDX" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_differentiate_py - 2019.07.05 at 16h 12m 34s.xml">
+      <configuration name="Unittests in test_differentiate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_differentiate_py - 2019.07.05 at 16h 12m 48s.xml">
+      <configuration name="Unittests in test_differentiate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_differentiate_py - 2019.07.05 at 16h 13m 29s.xml">
+      <configuration name="Unittests in test_differentiate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_differentiate_py - 2019.07.05 at 16h 14m 24s.xml">
+      <configuration name="Unittests in test_differentiate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_cross_py - 2019.07.05 at 16h 41m 51s.xml">
+      <configuration name="Unittests in test_cross.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -356,7 +380,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928944" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -381,7 +405,8 @@
     <MESSAGE value="Will use README.md to track what I do each day." />
     <MESSAGE value="Day 6: Completed simple polynomial class." />
     <MESSAGE value="Kind of getting addicted to list comprehensions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kind of getting addicted to list comprehensions." />
+    <MESSAGE value="Small steps... towards a micro version of Mathematica I guess..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Small steps... towards a micro version of Mathematica I guess..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,31 +420,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crossproduct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_function.py" />
-    <entry file="file://$PROJECT_DIR$/test_crossproduct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/function.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dotproduct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sequences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" column="114" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
+          <folding>
+            <element signature="e#61#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76415">
+          <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differentaite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -433,12 +465,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_sequences.py">
+    <entry file="file://$PROJECT_DIR$/func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" column="114" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
+        <state relative-caret-position="207">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_differentiate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
-            <element signature="e#61#76#0" expanded="true" />
+            <element signature="e#59#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -453,27 +492,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76415">
-          <caret line="741" column="8" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <first_editor relative-caret-position="307">
+            <caret line="63" selection-start-line="63" selection-end-line="63" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotproduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differentiate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cross.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#58#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
