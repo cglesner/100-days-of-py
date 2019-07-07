@@ -57,10 +57,16 @@ class TestPoly(unittest.TestCase):
 
     def test_poly_five(self):
         """Test the construction of a fifth order polynomial."""
-        p_five = func.Poly({(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1)})
+        p_five = func.Poly([(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1)])
         self.assertEqual(p_five(0), 1)
         self.assertEqual(p_five(1), 6)
         self.assertEqual(p_five(-1), 0)
+
+    def test_poly_equalitytrue(self):
+        """Test that equal polynomials evaluate to equal."""
+        f_x = func.Poly([(0, 1), (3, 5)])
+        g_x = func.Poly([(3, 5), (0, 1)])
+        self.assertEqual(f_x, g_x)
 
 
 if __name__ == "__main__":

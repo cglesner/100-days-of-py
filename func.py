@@ -17,7 +17,11 @@ class Pterm:
 
     def __eq__(self, other):
         """Define Pterm equality."""
-        return self.p == other.p and self.c == other.c
+        return (self.p, self.c) == (other.p, other.c)
+
+    def __hash__(self):
+        """Define how to determine a hash of this object."""
+        return hash((self.p, self.c))
 
 
 class Poly:
@@ -29,3 +33,7 @@ class Poly:
     def __call__(self, x):
         """Evaluate this polynomial at a particular input."""
         return fsum(p(x) for p in self.term_set)
+
+    def __eq__(self, other):
+        """Define equlaity of polynomials."""
+        return self.term_set == other.term_set

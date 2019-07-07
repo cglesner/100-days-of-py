@@ -62,3 +62,15 @@ Day 12 (2019-07-04):
 Day 13 (2019-07-05):
 * Went back and did clean up by adding tests for 
 `test_crossproduct.py`.
+
+Day 14 (2019-07-06):
+* Added a script to plot my functions. Not working yet.
+
+Day 15 (2019-07-07):
+* Uncovered a hole in my testing and learned something new!
+If you define a custom `__eq__()` method you have to also
+define a custom `__hash__()` method. Because I implemented
+`func.Poly` as a set of `func.Pterm` objects, the former 
+broke when I implemented a equality method for the later.
+Have to be careful to test how code changes to a smaller
+component affect a larger component.
