@@ -74,3 +74,6 @@ define a custom `__hash__()` method. Because I implemented
 broke when I implemented a equality method for the later.
 Have to be careful to test how code changes to a smaller
 component affect a larger component.
+
+Day 16 (2019-07-08):
+* Tried to implement polynomial reduction. Not yet successful.

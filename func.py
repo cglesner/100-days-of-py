@@ -5,7 +5,7 @@ for every unique input, there is one and only one output value.
 from math import fsum, pow
 
 
-class Pterm:
+class PolynomialTerm:
     """A class that implements a polynomial term."""
     def __init__(self, argument):
         """Store the coefficient and power for later use."""
@@ -24,11 +24,26 @@ class Pterm:
         return hash((self.p, self.c))
 
 
-class Poly:
+class Polynomial:
     """A class that implements a polynomial function."""
     def __init__(self, terms):
         """Construct a polynomial using a list of coefficients."""
-        self.term_set = {Pterm(t) for t in terms}
+        # Populate initial list.
+        term_list = [PolynomialTerm(t) for t in terms]
+        reduced_term_list = []
+        # check for terms with the same power.
+        for a in term_list:
+            for i, b in enumerate(reduced_term_list):
+                if a.p == b.p:
+                    # If the same power is present, replace that power term
+                    # with a new PolynomialTerm with the sum of the
+                    # coefficients.
+                    reduced_term_list[i] = PolynomialTerm((b.p, b.c))
+                    continue
+            # If we didn't encounter duplicates, simple append.
+            reduced_term_list.append(a)
+
+        self.term_set = {reduced_term_list}
 
     def __call__(self, x):
         """Evaluate this polynomial at a particular input."""

@@ -3,7 +3,7 @@ import func
 
 def d_dx(f):
     """Diferentiate a Pterm, f with respect to it's input variable, x."""
-    assert isinstance(f, func.Pterm), "Input must be of type func.Pterm."
+    assert isinstance(f, func.PolynomialTerm), "Input must be of type func.Pterm."
 
     # Grab current terms.
     c_old, p_old = f.c, f.p
@@ -13,4 +13,4 @@ def d_dx(f):
     c_new = c_old*p_old
 
     # Construct a new func.Pterm object.
-    return func.Pterm((p_new, c_new))
+    return func.PolynomialTerm((p_new, c_new))

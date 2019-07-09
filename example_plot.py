@@ -2,10 +2,10 @@
 func.Polynomial class."""
 
 import matplotlib.pyplot as plt
-from func import Poly
+from func import Polynomial
 
 # Define an example polynomial and it's derivatives.
-f_x = Poly([(3, 1), (2, -2), (1, 1)])
+f_x = Polynomial([(3, 1), (2, -2), (1, 1)])
 
 # Define a set of x-values for the plot.
 num_points = 100
